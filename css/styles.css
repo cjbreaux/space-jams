@@ -1,14 +1,13 @@
 .outside-box {
   height: 450px;
   width: 500px;
-  background-color: grey;
-  margin: 0 auto;
+  margin: 200px auto;
 }
 
 .inner-box {
   height: 150px;
   width: 150px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   box-sizing: border-box;
   position: relative;
   float: left;
@@ -82,4 +81,21 @@
   position: absolute;
   bottom: 1px;
   right: 1px;
+}
+
+.centerboyz {
+  text-align: center;
+}
+
+.centerboyz a {
+  color: red;
+}
+
+body {
+  background-image: url("../img/bg_stars.gif");
+}
+
+p {
+  text-align: center;
+  color: red;
 }
